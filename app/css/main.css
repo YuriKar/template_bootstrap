@@ -1,0 +1,71 @@
+*::-webkit-input-placeholder {  
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+/* префиксы плайс холдеров */
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.header_topline {
+	background-color: #43484C;
+	padding: 15px 0;
+	color: #fff;
+}
+
+.header_topline a {
+	color: #fff;
+	
+}
+
+.top_links a {
+	text-decoration: underline; /* Добавляет оформление текста в виде его подчеркивания */
+	
+}
+
+.top_links a:hover {
+	text-decoration: none; /* исчезает подчеркивание при наведении */
+}
+
+.top_links {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.soc_buttons {
+	float: right; /* выравнивание по правой стороне */
+}
+
+.soc_buttons a {
+	font-size: 25px; /* размер иконок */
+	margin-left: 8px; /* отступ слева от соседней иконки */
+}
+
+.auth_buttons {
+	background-color: transparent;
+	border: none; /* убираем рамку кнопки */
+	font-size: 25px;
+}
