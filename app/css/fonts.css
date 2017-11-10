@@ -38,3 +38,13 @@
 	font-style: normal;
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: "NeoSansProRegular";
+	src: url("../fonts/NeoSansProRegular/NeoSansProRegular.eot");
+	src: url("../fonts/NeoSansProRegular/NeoSansProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NeoSansProRegular/NeoSansProRegular.woff") format("woff"),
+	url("../fonts/NeoSansProRegular/NeoSansProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

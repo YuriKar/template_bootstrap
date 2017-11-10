@@ -13,6 +13,13 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.top_links {
+		vertical-align: middle;
+		top: 52px;
+		background-color: #5E6367;
+		position: absolute;
+		width: 100%;
+		margin-top: 9px;
+		padding: 10px;
 		display: none; /* данный класс не отображается на маленьких экранах */
 	}
 }
@@ -42,6 +49,9 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	.top_links {
+		display: inline-block !important;
+	}
 
 }
 
