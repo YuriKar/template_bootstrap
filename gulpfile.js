@@ -1,9 +1,9 @@
  var gulp        = require('gulp'),
 	sass        = require('gulp-sass'),
 	browserSync = require('browser-sync'),
-	/*concat      = require('gulp-concat'),*/
+	concat      = require('gulp-concat'),
 	uglify      = require('gulp-uglifyjs');
-	/*uglify      = require('gulp-uglifyjs');*/
+	uglify      = require('gulp-uglifyjs');
 
 gulp.task('browser-sync', function() {
 	browserSync({

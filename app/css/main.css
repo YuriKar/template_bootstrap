@@ -43,7 +43,12 @@ body {
 
 .top_links a {
 	text-decoration: underline; /* Добавляет оформление текста в виде его подчеркивания */
-	
+}
+
+.top_links {
+	display: inline-block;
+	vertical-align: middle;
+	z-index: 10;
 }
 
 .top_links a:hover {
@@ -72,8 +77,36 @@ body {
 	/* font-family: 'Spectral SC', serif; */
 	font-size: 26px;
 	font-family: "NeoSansProRegular";
+	text-align: center;
 }
 
 .top_header {
 	background-color: #25F7FA;
+}
+
+.main_mnu {
+	background-color: #64F7E4;;
+	color: #494949;
+	margin-bottom: 20px;
+}
+
+.main_mnu a {
+	color: #a3a3a3;
+	padding: 15px;
+	display: block;
+}
+
+.main_mnu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; /* убираем у ссылок кругляшки */
+	float: left;
+}
+
+.top_contacts {
+	float: right;
+}
+
+.main_mnu ul li {
+	display: inline-block; /* что бы ссылки были в ряд */
 }
