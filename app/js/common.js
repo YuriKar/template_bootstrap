@@ -3,6 +3,10 @@ $(document).ready(function() {
 	$(".auth_buttons").click(function() {
 		$(this).next().slideToggle();
 	});
+
+	$(".menu_button").click(function() {
+		$(this).next().slideToggle();
+	});
 /*для класса auth_buttons делаем всплывающий слайдер*/
 
 

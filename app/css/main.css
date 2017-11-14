@@ -42,13 +42,15 @@ body {
 }
 
 .top_links a {
-	text-decoration: underline; /* Добавляет оформление текста в виде его подчеркивания */
+	text-transform: uppercase;
+	  /* Добавляет оформление текста в виде его подчеркивания */
 }
 
 .top_links {
 	display: inline-block;
 	vertical-align: middle;
 	z-index: 10;
+	padding-top: 7px;
 }
 
 .top_links a:hover {
@@ -64,48 +66,77 @@ body {
 	margin-left: 8px; /* отступ слева от соседней иконки */
 }
 
-.auth_buttons {
+.auth_buttons,
+.menu_button {
 	background-color: transparent;
 	border: none; /* убираем рамку кнопки */
 	font-size: 25px;
 }
 
+.menu_button {
+	color: #fff;
+	padding: 9px 0px 9px 15px;
+}
+
 .logo {
 	display: block;
-	padding: 15px 0;
+	padding: 20px;
 	color: #fff;
 	/* font-family: 'Spectral SC', serif; */
-	font-size: 26px;
+	font-size: 30px;
 	font-family: "NeoSansProRegular";
 	text-align: center;
 }
 
 .top_header {
-	background-color: #25F7FA;
+	background-color: #01afb0;
 }
 
 .main_mnu {
-	background-color: #64F7E4;;
-	color: #494949;
+	background-color: #0468b4;;
+	color: #161616;
 	margin-bottom: 20px;
 }
 
 .main_mnu a {
-	color: #a3a3a3;
-	padding: 15px;
+	color: #161616;
 	display: block;
+	padding: 15px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	text-transform: uppercase;
+	
 }
 
-.main_mnu ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none; /* убираем у ссылок кругляшки */
-	float: left;
+.main_mnu a:hover {
+	background-color: #21409b;
 }
 
 .top_contacts {
 	float: right;
+	font-size: 25px;
+	padding-top: 9px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+	padding-left: 15px;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
 }
+
+.top_contacts:hover {
+	background-color: #21409b 
+}
+
+.main_mnu ul {
+	list-style-type: none; /* убираем у ссылок кругляшки */
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+
 
 .main_mnu ul li {
 	display: inline-block; /* что бы ссылки были в ряд */

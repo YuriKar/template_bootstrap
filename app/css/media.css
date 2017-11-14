@@ -22,6 +22,10 @@
 		padding: 10px;
 		display: none; /* данный класс не отображается на маленьких экранах */
 	}
+
+	.main_mnu ul{
+		display: none;
+	}
 }
 
 /* Extra Small Devices, Phones */
