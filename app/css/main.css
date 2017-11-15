@@ -108,12 +108,12 @@ body {
 
 .main_mnu {
 	background-color: #0468b4;;
-	color: #f4ab77;
+	color: #ffdca8;
 	margin-bottom: 20px;
 }
 
 .main_mnu a {
-	color: #f4ab77;
+	color: #ffdca8;
 	display: block;
 	padding: 15px;
 	-webkit-transition: all .25s;
@@ -154,4 +154,11 @@ body {
 
 .main_mnu ul li {
 	display: inline-block; /* что бы ссылки были в ряд */
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "NeoSansProRegular"
 }

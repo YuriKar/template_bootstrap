@@ -7,7 +7,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+	
+	
 }
 
 /* Small Devices, Tablets */
@@ -25,7 +26,11 @@
 
 	.main_mnu ul{
 		display: none;
+		background-color: #0468b4;
+		position: absolute;
+		width: 100%;
 	}
+	
 }
 
 /* Extra Small Devices, Phones */
@@ -57,11 +62,14 @@
 		display: inline-block !important;
 	}
 
+	 .main_mnu ul {
+		display: inline-block !important;
+	} 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+	
 }
 
  /* Large Devices, Wide Screens */

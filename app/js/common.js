@@ -5,7 +5,7 @@ $(document).ready(function() {
 	});
 
 	$(".menu_button").click(function() {
-		$(this).next().slideToggle();
+		$(".main_mnu ul").slideToggle();
 	});
 /*для класса auth_buttons делаем всплывающий слайдер*/
 
