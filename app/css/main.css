@@ -62,9 +62,23 @@ body {
 }
 
 .soc_buttons a {
+
 	font-size: 25px; /* размер иконок */
 	margin-left: 8px; /* отступ слева от соседней иконки */
 }
+
+.vk a:hover {
+	color: #5181b7;
+}
+
+.fb a:hover {
+	color: #3b5998;
+}
+
+.tw a:hover {
+	color: #40ccfc;
+}
+
 
 .auth_buttons,
 .menu_button {
@@ -94,12 +108,12 @@ body {
 
 .main_mnu {
 	background-color: #0468b4;;
-	color: #161616;
+	color: #f4ab77;
 	margin-bottom: 20px;
 }
 
 .main_mnu a {
-	color: #161616;
+	color: #f4ab77;
 	display: block;
 	padding: 15px;
 	-webkit-transition: all .25s;
