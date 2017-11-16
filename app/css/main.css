@@ -54,6 +54,10 @@ body {
 }
 
 .top_links a:hover {
+	color: #ffdca8;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
 	text-decoration: none; /* исчезает подчеркивание при наведении */
 }
 
@@ -69,14 +73,23 @@ body {
 
 .vk a:hover {
 	color: #5181b7;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
 }
 
 .fb a:hover {
 	color: #3b5998;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
 }
 
 .tw a:hover {
 	color: #40ccfc;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
 }
 
 
@@ -85,6 +98,17 @@ body {
 	background-color: transparent;
 	border: none; /* убираем рамку кнопки */
 	font-size: 25px;
+	z-index: 10;
+
+}
+
+.auth_buttons:hover,
+.menu_button:hover {
+	color: #ffdca8;
+	-webkit-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+	
 }
 
 .menu_button {
@@ -100,6 +124,7 @@ body {
 	font-size: 30px;
 	font-family: "BenderRegular";
 	text-align: center;
+	cursor: default;
 }
 
 .top_header {
@@ -127,6 +152,19 @@ body {
 	background-color: #21409b;
 }
 
+.main_mnu ul {
+	list-style-type: none; /* убираем у ссылок кругляшки */
+	float: left;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.main_mnu ul li {
+	display: inline-block; /* что бы ссылки были в ряд */
+}
+
 .top_contacts {
 	float: right;
 	font-size: 25px;
@@ -137,28 +175,21 @@ body {
 	-webkit-transition: all .25s;
 	-o-transition: all .25s;
 	transition: all .25s;
+	cursor: pointer;
 }
 
 .top_contacts:hover {
 	background-color: #21409b 
 }
 
-.main_mnu ul {
-	list-style-type: none; /* убираем у ссылок кругляшки */
-	float: left;
-	padding: 0;
-	margin: 0;
-}
-
-
-
-.main_mnu ul li {
-	display: inline-block; /* что бы ссылки были в ряд */
-}
-
 h1 {
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: "NeoSansProRegular"
+	font-family: "NeoSansProRegular";
+	position: relative;
+	top: 10px;
+	z-index: 1;
+	cursor: default;
 }
+
