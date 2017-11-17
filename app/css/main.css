@@ -187,9 +187,43 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 	font-family: "NeoSansProRegular";
+	font-size: 40px;
 	position: relative;
 	top: 10px;
 	z-index: 1;
 	cursor: default;
 }
 
+.slider_container img {
+	max-width: 100%;
+}
+
+.slider_container {
+	text-align: center;
+	margin-top: 37px;
+	position: relative;
+}
+
+.prev_button,
+.next_button {
+	color: black;
+	font-size: 50px;
+	position: absolute;
+	z-index: 10;
+	cursor: pointer;
+	top:46%;
+}
+
+
+.next_button {
+	right: 0;
+}
+
+.prev_button {
+	left: 0;
+}
+
+.slide_item2 {
+	position: relative;
+	top: 70px;
+}
