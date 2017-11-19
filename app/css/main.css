@@ -19,11 +19,12 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
+	border: red 3px solid;
 	
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	border: green 3px solid;
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -167,7 +168,7 @@ body {
 
 .top_contacts {
 	float: right;
-	font-size: 25px;
+	font-size: 23px;
 	padding-top: 9px;
 	padding-right: 15px;
 	padding-bottom: 9px;
@@ -226,4 +227,62 @@ h1 {
 .slide_item2 {
 	position: relative;
 	top: 70px;
+}
+
+.order{
+	background-color: #FAFAFA;
+	padding: 20px 0;
+	margin-top: 25px;
+}
+
+.sell_descr {
+	font-size: 25px;
+}
+
+.button {
+	display: block;
+	border: none;
+	background-color: #01afb0;
+	color: #FFF;
+	padding: 10px 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	
+}
+
+.button:hover {
+	color: #01afb0;
+	background-color: #FFF;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+
+.button:active {
+	background-color: #21409b;
+	color: #FFF
+}
+
+.cell_right .button {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+.pop_form input[type=text] {
+	display: block;
+	line-height: 25px;
+	margin: 0 auto 12px; 
+	border: #999 3px solid;
+}
+
+.blog_item img {
+	max-width: 100%
+}
+
+.blog_item img h3 {
+	text-transform: uppercase;
+	
 }
